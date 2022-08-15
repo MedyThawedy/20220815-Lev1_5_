@@ -43,7 +43,7 @@ console.log('-------------------------------------------------------');
 checkNumber.forEach((item, index, arr) => {
     console.log('Index : ', index, 'value :', item);
     if (item % 3 === 0) {
-        console.log('Index : ', index, 'value :', item, ' It s divisible by 3 so we will add 100 to it');
+        console.log('Index : ', index, 'value :', item, ' Is divisible by 3 so we will add 100 to it');
         checkNumber[index] = item + 100;
         console.log('Index : ', index, 'New value :', checkNumber[index], ' 100 was added');
     }
